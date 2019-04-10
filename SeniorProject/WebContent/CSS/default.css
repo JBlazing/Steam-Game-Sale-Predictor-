@@ -1,0 +1,81 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-size: 17px;
+	
+	background: url("../background.png") center top no-repeat #1b2838;
+}
+
+input[type=text], input[type=date], input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px auto 10px auto;
+    align: center;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background: url("../background_spotlight.jpg") no-repeat center center fixed;
+    background-position-y: 105px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+    box-shadow: 0 0 4px #000;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 14px 20px;
+    margin: 10px auto 10px auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    color: #ffffff;
+    background-position-y: -142px;
+}
+
+input[type=text] {
+	font-size: 20px;
+}
+
+.chart div{
+	font: 10px sans-serif;
+	background-color: steelblue;
+	text-align: right;
+	padding: 3px;
+	margin: 1px;
+	color: white;
+}
+
+div.searchform {
+	margin-left: 100px; margin-right: 100px;
+	top: 50%;
+}
+
+.chart rect {
+  fill: #dde3ff;
+}
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.axis text {
+  font: 20px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
